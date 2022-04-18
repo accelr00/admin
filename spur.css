@@ -8695,7 +8695,7 @@ a.text-dark:hover, a.text-dark:focus {
 .spur-card-body-chart {
   position: relative;
   max-width: 50%; }
-  @media (max-width: 767.98px) {
+  @media (max-width: 367.98px) {
     .spur-card-body-chart {
       padding: 12px 5px; } }
 
