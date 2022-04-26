@@ -32,8 +32,7 @@ function insertNewRecord(data){
     var cell4 = newRow.insertCell(3);
         cell4.innerHTML = data.city;
     var cell5 = newRow.insertCell(4);
-        cell5.innerHTML = `<a href="#" onClick='onEdit(this)'>Edit</a>
-                        <a href="#" onClick='onDelete(this)'>Delete</a>`;
+        cell5.innerHTML = `<button onClick="onEdit(this)">Edit</button> <button onClick="onDelete(this)">Delete</button>`;
 }
 
 // To Reset the data of fill input
